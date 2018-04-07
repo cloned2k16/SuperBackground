@@ -1,0 +1,23 @@
+#super-bg-preview-div 			{
+	position					:    relative;
+	background-color			:	     #FAB; 
+	width						: 	    620px; 
+	height						: 	    465px;
+}
+
+#super-bg-preview-div 
+	span 						{		
+	z-index						:	        1;
+	font-size					:	     36pt;
+	display						:       table;
+	margin						:	 36% auto;
+	opacity						:			1;
+}
+
+#super-bg-preview-div 
+	div, img, video, iframe		{
+	z-index					    :	        2;
+	position					:	 absolute;
+    width						:	     100%;
+    height						:	     100%;
+}
