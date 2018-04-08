@@ -1,6 +1,6 @@
-=== Plugin Dependencies ===
+=== Super Background ===
 Contributors: 				cloned67
-Tags: 						plugin, background , video background, image background, youtube
+Tags: 						background , video background, image background, youtube background, super background, cover video, animation video, you tube background, flexible background, overlay background
 Requires at least: 			4.0
 Tested up to: 				4.9.5
 License: 					GPLv2 or later
