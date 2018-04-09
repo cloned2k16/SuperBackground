@@ -67,10 +67,18 @@
                 else {
                     $url = str_replace ('watch?v=','embed/'                     ,$url);
                     $url = str_replace ('youtu.be','www.youtube.com/embed/'     ,$url);
+					$match = preg_match(Data::$isYouId,$url,$mtchs);
+					if ($match){
+						$vId = substr($mtchs[0],6);
+					}
+					else {
+						$vId="";
+					}
                     if (preg_match( Data::$isAuto, $url)){
                     }
                     else {
-            echo   '<iframe src="'. $url . '?autoplay=1&showinfo=0&controls=0&loop=1" ></iframe>';
+						
+            echo   '<iframe src="'. $url . '?autoplay=1&showinfo=0&controls=0&loop=1&playlist='. $vId .'" ></iframe>';
                     }
                 }
             }

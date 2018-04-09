@@ -1,6 +1,6 @@
 === Super Background ===
 Contributors: 				cloned67
-Tags: 						background , video background, image background, youtube background, super background, cover video, animation video, you tube background, flexible background, overlay background
+Tags: 						background , video background, image background, youtube background, super background, cover video, animation video, you tube background, flexible background, overlay background, video cover, video HTML5, youtube, youtube embed, youtube player, youtube videos
 Requires at least: 			4.0
 Tested up to: 				4.9.5
 License: 					GPLv2 or later
