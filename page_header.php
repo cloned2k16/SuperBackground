@@ -1,12 +1,19 @@
 <?php namespace SuperBackGroundAdmin { ?>
 
-        <div class="wrap">
-         <div id="sbg-wrap" class="sbg-help">
-          <h1><?php echo getAdminTitle(); ?></h1>
+        <div class="postbox-container">
+         <div class="postbox">
+		 <button class="handlediv button-link" aria-expanded="true" type="button">
+			<span class="screen-reader-text">Toggle panel: <?php echo getAdminTitle(); ?></span>
+			<span class="toggle-indicator" aria-hidden="true" onclick="hideContent();">^</span>
+		</button>
+		<h2 class="hndle ui-sortable-handle">
+			<span><?php echo getAdminTitle(); ?></span>
+		</h2>		
+		<div class="inside">
           <form method="post" action="options.php">
-          <?php settings_fields( settingsHandle() ); ?>
-          <h4><?php echo getAdminSubTitle(); ?></h4>
-           <?php 
+          <?php 
+				settings_fields( settingsHandle() ); 
+           
                 $urlRef     =   optionMediaName         ();
                 $alphaRef   =   optionAlphaName         ();
                 $overARef   =   optionOverAlphaName     ();
@@ -82,4 +89,5 @@
          <p>
           <div id=super-bg-preview-div></div>
        </p>  
+	  </div>
 <?php } ?>

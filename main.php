@@ -3,7 +3,7 @@
     Plugin Name:        Super Background
     Plugin URI:         http://wpPlugIns.ledg.es/SuperBackground/
     Description:        A Flexible and powerful Video/Image Background handler
-    Version:            0.0.2
+    Version:            0.0.4
     Author:             Paolo Lioy
     Author URI:         http://know.ledg.es/
     License:            GPLv2
