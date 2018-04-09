@@ -34,7 +34,9 @@
                         }
                     }
                     else{
-                        url+='?autoplay=1&showinfo=0&controls=0&loop=1';
+						match= isYouId.exec(url);
+						
+                        url+='?autoplay=1&showinfo=0&controls=0&loop=1&playlist='+match[0].substring(6);
                     }
                     div.append('<iframe src="'+url+'" ></iframe>');
                 }

@@ -20,6 +20,7 @@ jQuery(document).ready(function($) {
         ,   isImage 	=   <?php echo \YaOO\jsRegEx(Data::$isImage) ."\n"; ?>
         ,   isVideo 	=   <?php echo \YaOO\jsRegEx(Data::$isVideo) ."\n"; ?>
         ,   isAuto  	=   <?php echo \YaOO\jsRegEx(Data::$isAuto) ."g\n"; ?>
+		,   isYouId     =   <?php echo \YaOO\jsRegEx(Data::$isYouId) ."\n"; ?>
         ,   match   	=   isImage.exec(url)
 <?php
     include ( '_-'. basename(__FILE__, '.php')); 
