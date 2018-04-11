@@ -9,3 +9,5 @@ We will review your submission as soon as possible and send you a follow up emai
 Your plugin has been given the initial slug of super-background,  
 however this is subject to change based on the results of your review.
 
+## online here: 
+(https://wordpress.org/plugins/super-background/)
